@@ -29,7 +29,7 @@ This project documents my practice of essential data cleaning techniques on a ra
 ## 🔧 Techniques Practiced
 
 ### 1. 🔢 Validating/Fixing Data Types
-- In most of the case Power BI itself will apply Data type Transformations, also validated from  my end to check the correctness.
+- In most of the case Power Query itself will apply Data type Transformations, also validated from  my end to check the correctness.
 - After validating, Applied proper types in Power Query using **Clicking the Data type format near the Column name**
 
 ### 2. 📐 Standardizing Formats
@@ -38,7 +38,7 @@ This project documents my practice of essential data cleaning techniques on a ra
 - Capitalized texts as for specific columns using **Transform→Format→Capitalize Each Word**
 
 ### 3. 📊 Outlier Detection
-- Identified outliers in numerical columns using sorting and conditional formatting in Excel
+- Identified outliers in Age, Booking Date columns using sorting and conditional formatting in Excel
 - Flagged suspicious values for review rather than blindly removing them
 
 ### 4. 🏷️ Renaming Columns
