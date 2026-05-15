@@ -1,4 +1,4 @@
-# Claude-for-Excel-Practice
+# Claude-for-Excel-Practice: Part A
 
 # 🧹 Data Cleaning Practice with Claude AI
 
