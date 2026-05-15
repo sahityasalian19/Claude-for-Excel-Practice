@@ -38,18 +38,16 @@ This project documents my practice of essential data cleaning techniques on a ra
 - Capitalized texts as for specific columns using **Transform→Format→Capitalize Each Word**
 
 ### 3. 📊 Outlier Detection
-- Identified outliers in Age, Booking Date columns using sorting and conditional formatting in Excel
+- Identified outliers in Age, Booking Date and Customer Rating column.
 - Flagged suspicious values for review rather than blindly removing them
 
-### 4. 🏷️ Renaming Columns
+### 4. 🚩 Created Flag Columns
+- Added new indicator columns to mark rows with missing values, outliers, or anomalies
+- Enabled downstream analysis to filter or handle flagged records appropriately
+
+### 5. 🏷️ Renaming Columns
 - Renamed cryptic or inconsistent column headers to clear, descriptive names
 - Applied a consistent naming convention throughout the dataset
-
-
-
-### 6. 🚩 Created Flag Columns
-- Added new boolean/indicator columns to mark rows with missing values, outliers, or anomalies
-- Enabled downstream analysis to filter or handle flagged records appropriately
 
 ---
 
@@ -58,10 +56,9 @@ This project documents my practice of essential data cleaning techniques on a ra
 ```
 📦 data-cleaning-practice
  ┣ 📂 raw_data
- ┃ ┗ 📄 raw_dataset.csv          # Original uncleaned dataset
+ ┃ ┗ 📄 raw_dataset.xlsx          # Original uncleaned dataset
  ┣ 📂 cleaned_data
  ┃ ┗ 📄 cleaned_dataset.xlsx     # Final cleaned output
- ┣ 📄 README.md
 ```
 
 ---
@@ -83,9 +80,8 @@ Claude provided clear, step-by-step instructions for each cleaning task — from
 
 ## 🚀 Next Steps
 
-- [ ] Explore data cleaning with Python (pandas)
-- [ ] Automate the cleaning pipeline using Power Query parameters
-- [ ] Visualize the cleaned data using Power BI or Excel charts
+- [ ] Create reports using pivot table 
+
 
 ---
 
